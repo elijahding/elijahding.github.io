@@ -11,7 +11,6 @@ tags:
 
 A [massive](https://news.ycombinator.com/item?id=12829759) [debate](https://news.ycombinator.com/item?id=13722852) in the python community about python2/3 has been raging for years. The main reason for python3 to diverge was to provide unambiguous types to handle unicode, strings and bytes ([more here](https://news.ycombinator.com/item?id=10752028)), but recently there’s been a bigger divergence that’s gone largely unnoticed. python3.4 introduced [the asyncio module](https://docs.python.org/3/library/asyncio.html) and python3.5 gave it a new syntax that is built into the language. Asyncio has done for python what node did for javascript. Asynchronous programming in python enables you to do new and powerful things, but like all technologies there are tradeoffs.
 
-####  
 
 ## **Performance**
 
@@ -29,7 +28,6 @@ For applications with lots of IO, the savings can be substantial. Imagine a serv
 
 Let’s start, by showing what some asynchronous python 3.5+ code looks like:
 
-####  
 
 **Regular Snippet **
 
